@@ -1,7 +1,7 @@
 
 resource "azurerm_resource_group" "rg-block" {
   name     = "vm-rg"
-  location = "eastus"
+  location = "southindia"
 }
 
 resource "azurerm_virtual_network" "vnet-block" {
