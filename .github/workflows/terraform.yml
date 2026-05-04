@@ -2,9 +2,11 @@
 name: Terraform Azure Deployment
 
 on:
-  push:
+  push: 
     branches:
       - main
+    paths:
+      - "C:/Users/kunal.rajendra.yeole/Documents/Others/github_actions/main.tf"
 
 jobs:
   terraform:
