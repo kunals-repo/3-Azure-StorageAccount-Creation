@@ -6,7 +6,8 @@ on:
     branches:
       - main
     paths:
-      - "C:/Users/kunal.rajendra.yeole/Documents/Others/github_actions/main.tf"
+      - "github_actions/main.tf"
+      
 
 
 
