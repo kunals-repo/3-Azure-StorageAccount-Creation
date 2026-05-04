@@ -1,7 +1,7 @@
 
 resource "azurerm_resource_group" "rg-block" {
   name     = "vmrg"
-  location = "eastus"
+  location = "Canada Central"
 }
 
 
@@ -36,7 +36,7 @@ resource "azurerm_windows_virtual_machine" "vm-block" {
   name                = var.vm-name
   resource_group_name = azurerm_resource_group.rg-block.name
   location            = azurerm_resource_group.rg-block.location
-  size                = "Standard_DS1_v2"
+  size                = "Standard_b2s"
   admin_username      = "kunal"
   admin_password      = var.vm-password
   network_interface_ids = [
