@@ -57,7 +57,11 @@ Custom runner configuration
 Control over tools, dependencies, and execution
 
 🧠 Key Learnings
+
 Integration of Terraform with GitHub Actions
+
 Setting up and using a self-hosted runner
+
 Automating Azure deployments using CI/CD
+
 Managing infrastructure using Infrastructure as Code
